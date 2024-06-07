@@ -1,0 +1,16 @@
+body, html {
+    height: 100%;
+}
+#layoutAuthentication {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#layoutAuthentication_content {
+    flex: 1;
+}
+#layoutAuthentication_footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
